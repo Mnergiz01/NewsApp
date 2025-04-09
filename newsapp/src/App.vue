@@ -1,11 +1,11 @@
 <template>
   <div>
     <!-- Siyah arka plan -->
-    <div class="absolute top-0 left-0 w-full h-[450px] bg-black z-[-1]"></div>
+    
 
-    <div class="min-h-screen flex flex-col mx-82 z-20 relative">
+    <div class="min-h-screen flex flex-col">
       <div class="flex-1">
-        <Navbar />
+        
         <router-view />
       </div>
     </div>
